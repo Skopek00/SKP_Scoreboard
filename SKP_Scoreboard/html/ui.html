@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./reset.css"/>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="scoreboard">
+                <div class="BigTitle">SKP Development</div>
+                <div class="discord">
+                    <div class="discordek">discord.gg/<b>eKB5dQgdsT</b></div>
+                </div>
+                <div class="online">
+                    <div class="online-person"><span id="players">0  </span>   <i class="fas fa-user-group"></i></div>
+                </div>
+                <span><img src="https://cdn.discordapp.com/attachments/1089726195832205352/1089726741150449734/yourlogo.png"></span>
+                <div class="title">Frakcje</div>
+                <div class="fraction-list">
+                    <div class="fraction" data-type="lspd">
+                        <div class="fraction-name">🚓 | LSPD</div>
+                        <div class="fraction-check"><span style="color:#ff0000; font-weight:600px; position: right;" id="lspd">0</span></div>
+                    </div>
+                    <div class="fraction" data-type="ems">
+                        <div class="fraction-name">🚑 | EMS</div>
+                        <div class="fraction-check"><span style="color:#ff0000; font-weight:600px; text-align: right;" id="ems">0</span></div>
+                    </div>
+                    <div class="fraction" data-type="lscm">
+                        <div class="fraction-name">🔧 | LSCM</div>
+                        <div class="fraction-check"><span style="color:#ff0000; font-weight:600px;" id="mech">0</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
