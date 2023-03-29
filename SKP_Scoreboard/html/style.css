@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-/* * */
 * {
   box-sizing: border-box;
   user-select: none;
   -webkit-user-drag: none;
+  font-family: heebo;
 }
 
 @font-face {
@@ -13,23 +10,13 @@
   src: url(https://cdn.discordapp.com/attachments/548137697382760460/589533986682961979/Heebo-Regular.ttf);
 }
 
-/* Root */
-:root {
-  --white: #ffffff;
-  --aqua: #00C1D4;
-  --grey: #1F1F1F;
-}
-
-/* Html,body */
 html,
 body {
-  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   outline: 0;
-  font-family: heebo;
   font-weight: 600;
-  color: var(--white);
+  color: #fff;
   min-width: 100vw;
   min-height: 100vh;
 }
@@ -65,7 +52,6 @@ body {
   padding: 15px 1rem;
   right: 4.2vw;
   top: 36.5vh;
-  font-family: heebo;
   text-align: center;
   border-radius: 5px;
   font-weight: 400;
@@ -75,7 +61,6 @@ body {
 .title {
   font-size: 1.2rem;
   padding: 3px 1rem;
-  font-family: heebo;
   border-radius: 5px;
   margin-top: 10%;
   margin-left: -65%;
@@ -94,7 +79,6 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: 400;
-  font-family: heebo;
   margin-left: -15%;
   opacity: 0.7;
 }
@@ -124,7 +108,6 @@ body {
   padding: 3px 1rem;
   right: 1vw;
   top: 38vh;
-  font-family: heebo;
   text-align: center;
   border-radius: 5px;
   font-weight: 400;
@@ -138,7 +121,6 @@ body {
   right: 2.5vw;
   top: 41vh;
   opacity: 0.6;
-  font-family: heebo;
   text-align: center;
   border-radius: 5px;
   font-weight: 400;
@@ -158,10 +140,7 @@ span img {
   padding: 3px 1rem;
   right: 1.6vw;
   top: -0.2vh;
-  font-family: heebo;
   border-radius: 5px;
   font-weight: 400;
   bottom: 60%;
 }
-
-/*4a6dcf*/
